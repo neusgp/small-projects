@@ -1,2 +1,2 @@
 # small-projects
-A repository for my small projects which I build maily to learn new things and go over some concepts. 
+A repository for my small projects which I build mainly to learn new things and to go over some concepts. 
