@@ -13,8 +13,6 @@ function decimalToBinary(N) {
     return binaryArr.reverse().join("");
 }
 
-console.log("this is the binary", decimalToBinary(10));
-
 function binaryToDecimal(string) {
     let binaryArr = string.split("");
     binaryArr.reverse().map((val, i, arr) => {
@@ -27,4 +25,7 @@ function binaryToDecimal(string) {
     return num.toString();
 }
 
-console.log("this is the decimal", binaryToDecimal("1010"));
+module.exports = {
+    decimalToBinary,
+    binaryToDecimal,
+};

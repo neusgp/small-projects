@@ -1,8 +1,11 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
+import Values from "./values.js";
 
 export default function App() {
-    const [name, setName] = useState("Neus");
-
-    return <div>Hello {name}</div>;
+    return (
+        <div id="main">
+            <Values />
+        </div>
+    );
 }
