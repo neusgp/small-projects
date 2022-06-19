@@ -30,7 +30,7 @@ export default function Values() {
                 </h2>
             )}
             <button onClick={changeMode}>change</button>
-            <Convert mode={mode}/>
+            <Convert mode={mode} />
         </div>
     );
 }
