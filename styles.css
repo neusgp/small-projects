@@ -31,3 +31,39 @@ body {
 .table_header h3 {
     width: 50%;
 }
+
+#pop_up {
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+
+    display: none;
+    opacity: 0;
+
+    background-color: violet;
+    border: 4px solid yellow;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 2%;
+
+    transition: display 0.5s, opacity 0.5s;
+}
+
+.show {
+    display: auto !important;
+    opacity: 1 !important;
+}
+
+#ok {
+    margin: 0;
+    font-size: 2em;
+}
+
+#ok:hover {
+    cursor: pointer;
+}

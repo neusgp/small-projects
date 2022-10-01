@@ -18,4 +18,18 @@ cibo.forEach((item) => {
 //You avoid using a table and hardcoding the html. And each time you want to add a new event,
 //you only have to go to events.js and add a new object to the array.
 
-//  :*
+//POP-UP Modal
+
+const popUp = document.getElementById("pop_up");
+
+setTimeout(() => {
+    popUp.classList.add("show");
+}, 4000);
+
+//close POP-UP
+
+const ok = document.getElementById("ok");
+
+ok.addEventListener("click", () => {
+    popUp.classList.remove("show");
+});
